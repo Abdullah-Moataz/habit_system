@@ -35,7 +35,7 @@ if "hdf" not in st.session_state:
 #load API LLm
 load_dotenv()
 
-api_key = st.secrets("OPENROUTER_API_KEY")
+api_key = st.secrets["OPENROUTER_API_KEY"]
 
 
 client = OpenAI(
