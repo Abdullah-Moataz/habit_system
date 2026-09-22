@@ -36,3 +36,9 @@ You can try the deployed application here:
 3. Track your completion rate and streaks.
 4. View and edit your saved habits.
 5. Use the Personal Habit Coach to analyze your habit history and receive personalized suggestions.
+
+## 🎥 Demo Video
+
+Watch the full demonstration of the Habit Tracking System:
+
+[▶️ Watch Project Demo]([YOUR_VIDEO_URL](https://drive.google.com/file/d/1Upo2h7N_t1YGoYu1sBfzkrc4PlyWmv2i/view?usp=sharing))   
