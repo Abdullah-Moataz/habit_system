@@ -628,7 +628,7 @@ elif options == "Personal Habit Coach":
             with st.spinner("Analyzing your habits...", show_time=True):
 
                 response = client.chat.completions.create(
-                    model="poolside/laguna-s-2.1:free",
+                    model="nvidia/nemotron-3-ultra-550b-a55b:free",
                     messages=[
                         {
                             "role": "user",
