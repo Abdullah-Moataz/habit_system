@@ -13,7 +13,7 @@ st.title("Welcome to Habit Tracking")
 st.header("What are you looking for?")
 
 
-# Load habits
+# Load habits 
 if "hdf" not in st.session_state:
     if os.path.exists("habit.csv"):
         st.session_state.hdf = pd.read_csv("habit.csv")
@@ -32,6 +32,27 @@ if "hdf" not in st.session_state:
                 "Habit_Date"
             ]
         )
+
+# load habit completion
+if "cdf" not in st.session_state:
+    if os.path.exists("completion.csv"):
+        st.session_state.cdf = pd.read_csv("completion.csv")
+
+        st.session_state.cdf["Habit_Complet_Date"] = pd.to_datetime(
+            st.session_state.cdf["Habit_Complet_Date"],
+            format="mixed"
+        )
+
+    else:
+        st.session_state.cdf = pd.DataFrame(
+            columns=[
+                "Habit_Complet_Name",
+                "Habit_Complet_Date"
+            ]
+        )
+
+
+
 #load API LLm
 load_dotenv()
 
