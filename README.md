@@ -41,4 +41,4 @@ You can try the deployed application here:
 
 Watch the full demonstration of the Habit Tracking System:
 
-[▶️ Watch Project Demo]([YOUR_VIDEO_URL](https://drive.google.com/file/d/1Upo2h7N_t1YGoYu1sBfzkrc4PlyWmv2i/view?usp=sharing))   
+[▶️ Watch Project Demo](https://drive.google.com/file/d/1Upo2h7N_t1YGoYu1sBfzkrc4PlyWmv2i/view?usp=sharing)  
